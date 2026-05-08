@@ -1,4 +1,4 @@
-# 🌸 Data Science Internship Project - Iris Dataset Classification
+# Data Science Internship Project - Iris Dataset Classification
 
 ## 📌 Overview
 This project is part of my Data Science Internship at DecodeLabs.  
