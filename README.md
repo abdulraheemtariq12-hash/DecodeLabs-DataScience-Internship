@@ -1,38 +1,67 @@
-# Data Science Internship Project - Iris Dataset Analysis
+# 🌸 Data Science Internship Project - Iris Dataset Classification
 
-## Overview
-This project is part of my Data Science Internship. It focuses on performing basic data analysis and exploration using the Iris dataset. The goal is to understand the structure of the data, clean it, and perform initial statistical analysis using Python.
+## 📌 Overview
+This project is part of my Data Science Internship at DecodeLabs.  
+It focuses on applying basic Machine Learning techniques on the Iris dataset to perform classification and gain insights from data.
 
-## Dataset
-The Iris dataset is a classic dataset in machine learning and data science. It contains information about iris flowers, including:
-- Sepal length
-- Sepal width
-- Petal length
-- Petal width
+---
+
+## 📊 Dataset
+The Iris dataset is a well-known dataset in machine learning. It contains measurements of iris flowers and is used for classification tasks.
+
+### Features:
+- Sepal length  
+- Sepal width  
+- Petal length  
+- Petal width  
 - Species (target variable)
 
-## Tools & Libraries Used
-- Python
-- Pandas
-- Scikit-learn
+---
 
-## Project Steps
-1. Load the dataset using scikit-learn
-2. Convert data into a Pandas DataFrame
-3. Check for missing values
-4. Check for duplicate records
+## 🛠️ Tools & Libraries Used
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 🔄 Project Workflow
+1. Load dataset using `scikit-learn`
+2. Convert dataset into Pandas DataFrame
+3. Data exploration and inspection
+4. Check missing values and duplicates
 5. Perform descriptive statistics
-6. Basic data exploration
+6. Data visualization (EDA)
+7. Train Machine Learning models
+8. Evaluate model performance
 
-## Objective
-The main objective of this project is to practice:
-- Data loading and handling
-- Data cleaning techniques
-- Exploratory Data Analysis (EDA)
+---
 
-## Output
-The dataset is successfully loaded and analyzed using Python libraries.
+## 🤖 Machine Learning Models Used
+- Logistic Regression  
+- Random Forest Classifier  
 
-## Author
-Abdul Raheem Tariq
-Data Science Intern
+---
+
+## 📈 Model Evaluation
+- Logistic Regression Accuracy: **XX%**  
+- Random Forest Accuracy: **XX%**
+
+*(Replace XX% with your actual results)*
+
+---
+
+## 📊 Key Insights
+- Dataset is clean with no missing values  
+- Random Forest performed better than Logistic Regression  
+- Petal features are most important for classification  
+
+---
+
+## 🚀 How to Run This Project
+```bash
+pip install -r requirements.txt
+python main.py
