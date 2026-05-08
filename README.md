@@ -1,35 +1,38 @@
-# Iris Classification — DecodeLabs Data Science Internship Project
+# Data Science Internship Project - Iris Dataset Analysis
 
-## 📌 Description
-A beginner-level Machine Learning project using the Iris dataset to classify flower species.
+## Overview
+This project is part of my Data Science Internship. It focuses on performing basic data analysis and exploration using the Iris dataset. The goal is to understand the structure of the data, clean it, and perform initial statistical analysis using Python.
 
-This project demonstrates data loading, preprocessing, modeling, and evaluation using Python.
+## Dataset
+The Iris dataset is a classic dataset in machine learning and data science. It contains information about iris flowers, including:
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
+- Species (target variable)
 
-## 📊 Dataset
-- Built-in Iris dataset from `scikit-learn`
-- Includes 150 samples with 4 features and 3 target classes
+## Tools & Libraries Used
+- Python
+- Pandas
+- Scikit-learn
 
-## ⚙️ What We Did
-- Loaded the Iris dataset using `sklearn.datasets.load_iris`
-- Converted the data into a Pandas DataFrame
-- Added the target label column
-- Checked for missing values
-- Removed duplicate records
-- Performed basic exploratory analysis
-- Split the data into training and test sets
-- Trained a `LogisticRegression` model
-- Evaluated model accuracy on the test set
+## Project Steps
+1. Load the dataset using scikit-learn
+2. Convert data into a Pandas DataFrame
+3. Check for missing values
+4. Check for duplicate records
+5. Perform descriptive statistics
+6. Basic data exploration
 
-## 🧠 Model Used
-- `LogisticRegression` from `scikit-learn`
+## Objective
+The main objective of this project is to practice:
+- Data loading and handling
+- Data cleaning techniques
+- Exploratory Data Analysis (EDA)
 
-## 🚀 How to Run
-```bash
-pip install scikit-learn pandas
-python main.py
-```
+## Output
+The dataset is successfully loaded and analyzed using Python libraries.
 
-## 📁 Project Files
-- `main.py` — main Python script for data preparation, model training, and evaluation
-- `requirements.txt` — required Python packages
-- `README.md` — project overview and instructions
+## Author
+Abdul Raheem Tariq
+Data Science Intern
